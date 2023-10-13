@@ -1,0 +1,274 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+.text-button {
+    width: 168px;
+    height: 46px;
+    padding: 12px 44px;
+    font-family: "Causten";
+    font-size: 18px;
+    font-weight: 600;
+    color: #3C4242;
+    border:1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+/* Фіксована висота бо без неї не змогла виконати завдання. сорі */
+.euphoria {
+    margin: 0 auto 100px;
+    max-width: 1240px;
+    max-height: 640px;
+    background: url("../img/back.svg") 0 0 /cover no-repeat;
+    border: 0.1px solid #FFFFFF;
+}
+.subtitle {
+    max-width: 466px;
+    max-height: 84px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    font-family: "CoreSansC", sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+    color: #FFFFFF;
+    line-height: 1.47;
+    letter-spacing: 0.208px;
+}
+.text-euphoria {
+    font-family: "Causten", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+.content{
+    max-width: 466px;
+    max-height: 282px;
+    margin: 183px 74px 175px 74px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(5, 37, 17);
+    text-shadow: 2px 5px 7px #3C4242;
+    margin: 50px;
+}
+.consulting {
+    margin: 0 auto 100px;
+    width: 1220px;
+    height: 1450px;
+    border:0.1px solid #FFFFFF;
+    background: url("../img/photo1.jpg")0 197px / 384px 501px no-repeat ,
+    url("../img/iImage2.jpg")418px 197px /384px 501px no-repeat,
+    url("../img/image3.jpg")836px 197px / 384px 501px no-repeat,
+    url("../img/image4.jpg")0 837px / 384px 501px no-repeat,
+    url("../img/image5.jpg")418px 837px / 384px 501px no-repeat,
+    url("../img/image6.jpg")837px 836px / 384px 501px no-repeat,
+    url("../img/group23.jpg") 0 760px no-repeat,
+    url("../img/group23.jpg") 418px 760px no-repeat,
+    url("../img/group23.jpg") 836px 760px no-repeat,
+    url("../img/group23.jpg") 0 1400px no-repeat,
+    url("../img/group23.jpg") 418px 1400px no-repeat,
+    url("../img/group23.jpg") 836px 1400px no-repeat;
+}
+.content-consulting{
+    text-align: center;
+}
+.subtitle-consulting {
+    background: url("../img/blue.jpg")529px 3px no-repeat;
+    color: #37393F;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.title-consulting {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #37393F;
+    margin-bottom: 20px;
+}
+.text-consulting {
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.46;
+    color: #7D7D7D;
+    margin-bottom: 47px;
+}
+.names-consulting {
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.27;
+}
+.euph-block {
+    max-width: 1240px;
+    background: url("../img/violet.jpg") 0 9px no-repeat;
+    padding-left: 18px;
+    color: #807D7E;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.68;
+    margin-bottom: 100px;
+}
+.euph-title {
+    font-family: "CoreSansC", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.68;
+    color: #3C4242;
+    margin-bottom: 35px;
+
+}
+.euph-subtitle {
+    font-family: "CoreSansC", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.68;
+    color: #807D7E;
+    margin-bottom: 30px;
+}
+.text1,
+.text2,
+.text3,
+.text4 {
+    margin-bottom: 30px;
+}
+.euph-subtitle2 {
+    font-family: "CoreSansC",sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.see-more {
+    font-family: "CoreSansC",sans-serif;
+    font-weight: 600;
+}
+span{
+font-weight: 700;
+}
+.cons-conteiner{
+    max-width: 673px;
+    margin:0 auto 100px;
+}
+.cons-subtitle {
+    background: url("../img/blue.jpg")0 4px no-repeat;
+    padding-left: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #37393F;
+    margin-bottom: 20px;
+}
+.cons-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #37393F;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.cons-text {
+    margin-bottom: 30px;
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.46;
+}
+.cons-text p{
+    padding-bottom: 30px;
+}
+.list {
+    color: #37393F;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.list li{
+    background: url("../img/vector.jpg")no-repeat;
+    padding:0 0 25px 34px;
+    min-height: 30px;
+}
+.cons-line {
+    margin-bottom: 37px;
+width: 613px;
+height: 140px;
+}
+.cons-line1{
+    display: inline-block;
+    margin-right: 21px;
+    width: 295px;
+    height: 140px;
+    border: 1px solid #E3E3E3;
+    background: url("../img/icon1.jpg")32px 31px no-repeat;
+}
+.cons-line1 p ,
+.cons-line2 p {
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 32px 32px 90px;
+}
+.experience {
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 31px 94px 10px 90px;
+}
+.cons-line2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 295px;
+    height: 140px;
+    border: 1px solid #E3E3E3;
+    background: url("../img/icon1.jpg")32px 31px no-repeat;
+}
+.awards {
+    white-space: nowrap;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 31px 46px 10px 95px;
+}
+.more-button{
+    background: #6B77E5 bottom / 184px 65px no-repeat;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 1.2;
+    text-transform: capitalize;
+display: inline-block;
+padding: 22px 27px;
+}
+.practice {
+    margin: 0 auto;
+    background-color: #73afaf;
+    max-width: 1000px;
+    height: 1000px;
+    background-image: url("../img/pattern.jpg");
+    background-repeat: repeat-x ;
+    background-position: left bottom;
+    background-size: auto 200px;
+    background-attachment: fixed;
+}
+.background {
+    padding: 100px;
+    background:radial-gradient(circle, rgba(228,110,162,1) 0%, rgba(194,244,221,1) 100%) center / auto 200px no-repeat,
+url("../img/pattern.jpg");
+}
+
